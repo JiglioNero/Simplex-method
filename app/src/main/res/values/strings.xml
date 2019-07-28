@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Simplex method</string>
+    <string name="newTask">New task</string>
+    <string name="openTask">Open task from file</string>
+    <string name="saveTask">Save task</string>
+    <string name="changeLanguage">Change language</string>
+    <string name="russianL">Russian</string>
+    <string name="englishL">English</string>
+    <string name="targetF">Target function</string>
+    <string name="conditions">Conditions</string>
+    <string name="variableIncorrect">Input format error</string>
+    <string name="setBasis">Set basis</string>
+    <string name="solve">Solve</string>
+    <string name="answer">Result</string>
+    <string name="title_activity_load">LoadActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="loadTask">Load task from file</string>
+    <string name="writeSuccess">Write success</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.VariableInput">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/xCoefficient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textViewX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textLayout"
+            app:layout_constraintStart_toEndOf="@+id/textLayout"
+            app:layout_constraintTop_toTopOf="@+id/textLayout" />
+
+        <TextView
+            android:id="@+id/xIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewX"
+            app:layout_constraintStart_toEndOf="@+id/textViewX" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

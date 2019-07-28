@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changeLanguage">Изменить язык</string>
+    <string name="englishL">Английский</string>
+    <string name="newTask">Новая задача</string>
+    <string name="openTask">Открыть задачу из файла</string>
+    <string name="russianL">Русский</string>
+    <string name="saveTask">Сохранить задачу в файл</string>
+    <string name="targetF">Целевая функция</string>
+    <string name="conditions">Условия</string>
+    <string name="variableIncorrect">Ошибка ввода</string>
+    <string name="setBasis">Установить базис</string>
+    <string name="solve">Решить</string>
+    <string name="answer">Ответ</string>
+    <string name="app_name">Симплекс метод</string>
+    <string name="loadTask">Загрузить задачу из файла</string>
+    <string name="writeSuccess">Запись успешна</string>
+</resources>
